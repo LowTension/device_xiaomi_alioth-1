@@ -86,6 +86,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     GoogleCamera
 
+# Pixel Laucher
+PRODUCT_PACKAGES += \
+    PixelLauncher
+
 # Lawnchair Launcher
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
